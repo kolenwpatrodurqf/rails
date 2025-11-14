@@ -151,8 +151,10 @@ end
 
 Resulting event:
 
-```ruby
-tags: { graphql: true }
+```json
+"tags": {
+  "graphql": true
+}
 ```
 
 Tags are stack-based and temporary.
@@ -174,8 +176,10 @@ Rails.event.notify("checkout.succeeded", id: order.id)
 
 Resulting event:
 
-```ruby
-context: { request_id: "abcd123" }
+```json
+"context": {
+  "request_id": "abcd123"
+}
 ```
 
 For custom stores and behavior:
