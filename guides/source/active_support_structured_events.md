@@ -136,7 +136,7 @@ Subscribers may also use filter procs to receive only certain events.
 See:
 
 * **[Subscribers][]**
-* **[Filtered Subscriptions[]**
+* **[Filtered Subscriptions][]**
 
 Tags
 ----
